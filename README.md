@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://github.com/shakacode/cypress-on-rails
 
-Things you may want to cover:
+https://www.shakacode.com/blog/introduction-to-cypress-on-rails/
 
-* Ruby version
+https://grant-ps.blog/2018/08/10/getting-started-with-cypress-io-and-ruby-on-rails/
 
-* System dependencies
+https://nebulab.com/blog/cypress-for-rails-developers
 
-* Configuration
+```
+bundle install
 
-* Database creation
+CYPRESS=1 bin/rails server -p 4000
 
-* Database initialization
+yarn cypress open
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
